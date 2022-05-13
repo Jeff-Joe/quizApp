@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    background-color: azure;
+    padding-left: 1%;
+}
+
+.nav a {
+    padding: 20px 30px 10px;
+    font-size: 1.25rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.question-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5rem;
+    width: 100%
+}
+
+.question-box h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.question-box h5 {
+    width: 100%;
+    text-align: center;
+}
+
+#submit-button {
+    position: relative;
+}
